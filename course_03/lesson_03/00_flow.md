@@ -1,13 +1,11 @@
-Session 05: Review of Git And Introduction to JS Objects
+Session 05: Review of Git
 ---
 
 ## Agenda today
-- [ ] Quick check in
-- [ ] Review quiz
-- [ ] Review git
-- [ ] Re-introduction to JS Objects
-- [ ] BREAK (10mins)
-- [ ] Object Properties
+- [x] Quick check in
+- [x] Review quiz
+- [x] BREAK (10mins)
+- [x] Review git
 
 ## Quick check in
 - WhereAreYouNow?
