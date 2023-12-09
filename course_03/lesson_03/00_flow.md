@@ -44,14 +44,4 @@ Git Basics:
 
 ## Re-introduction to JS Objects
 
-# B R E A K (10mins)
-
-## Object Properties
-
-[workbook one](02_object_properties.js)
-[workbook two](03_property_names.js)
-[workbook three](04_missing_properties.js)
-
-### Exercise
-https://eggheadio.typeform.com/to/IDJBPQ
 
