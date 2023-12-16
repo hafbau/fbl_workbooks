@@ -4,17 +4,17 @@ console.log(typeof (true)); // "boolean"
 console.log(typeof (false)); // "boolean"
 
 // We can perform logical operations with them:
-let isSad = true;
-let isHappy = !isSad; // The opposite
+const isSad = true;
+const isHappy = !isSad; // The opposite
 // The Math rule of OR
 // - All has to be false for the result to be false
 // - Said another way, if one is true, the result is true
-let isFeeling = isSad || isHappy; // Is at least one of them true?
+const isFeeling = isSad || isHappy; // Is at least one of them true?
 
 // The Math rule of AND
 // - All has to be true for the result to be true
 // - Said another way, if one is false, the result is false
-let isConfusing = isSad && isHappy; // Are both true?
+const isConfusing = isSad && isHappy; // Are both true?
 
 // Truthiness of values
 // Falsey values in JS: undefined, null, NaN, 0, '', false
