@@ -133,4 +133,39 @@ while (rando > 0.420) {
 
 console.log('DONE');
 
+// More examples on the Browser
+answer = prompt('How old are you')
+age = Number(answer)
+while (age > 200) {
+  answer = prompt('How old are you? Damn it!')
+  age = Number(answer)
+}
+
+// Another way to write this is to use an absolute truthy condition and break within the loop
+// based on desired condition
+while (true) {
+  answer = prompt('How old are you? Damn it!')
+  age = Number(answer)
+  if (age < 200) break;
+}
+```
+
+## Do While
+
+Guaranteed to do the statements at least once.
+
+```js
+// Compare this while loop to the do while that follows
+// while that never happens
+while (false) {
+  answer = prompt('How old are you? Damn it!')
+  age = Number(answer)
+  if (age < 200) break;
+}
+
+// do while - happens at least once
+do {
+  answer = prompt('How old are you? Damn it!')
+  age = Number(answer)
+} while (false);
 ```
