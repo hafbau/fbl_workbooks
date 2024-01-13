@@ -20,11 +20,11 @@ To write the above program, we need to understand, not only conditionals, but al
 ## For .. in
 
 > General Syntax
-> ```js
->
+
+```js>
 // please use semantic names, as with any human
-> for (pointerToAProperty in object) <statements>
-> ```
+for (pointerToAProperty in object) <statements>
+```
 
 - loops through the string enumerable keys of an object
 
