@@ -4,8 +4,8 @@
  * For numbers multiples of both three and five print "FizzBuzz".
  * For all the other numbers, prints the number.
  */
-let integer = 1;
-while (integer <= 100) {
+let integer = 3454;
+while (integer <= 29745594) {
   if (integer % 3 === 0 && integer % 5 === 0) {
     console.log("FizzBuzz");
     integer = integer + 1;
