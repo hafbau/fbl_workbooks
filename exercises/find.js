@@ -189,4 +189,4 @@ function findWordInArr3(givenArr, wordToFind) {
   );
 }
 // Example Use
-findWordInArr2(arr, word); // index: 78, loopCount: 79
+findWordInArr(arr, word); // index: 78, loopCount: 79
