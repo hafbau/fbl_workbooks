@@ -70,12 +70,12 @@ const verifyPangram = (sentenceParam) => {
 
 // TESTS
 let sentence = "today is saturday";
-// console.log(
-//   sentence,
-//   "Expected result: false",
-//   "Test Passed?:",
-//   verifyPangram(sentence) === false
-// ); // false
+console.log(
+  sentence,
+  "Expected result: false",
+  "Test Passed?:",
+  verifyPangram(sentence) === false
+); // false
 
 sentence = "The quick brown fox jumps over the lazy dog";
 console.log(
