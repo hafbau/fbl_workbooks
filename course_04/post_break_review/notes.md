@@ -1,9 +1,9 @@
 Review
 ---
 
-- [] fbl content/direction
-- [] HOF - what
-- [] HOF - builtin array methods
+- [x] fbl content/direction
+- [x] HOF - what?
+- [x] HOF - builtin array methods
 
 ## regular katas - Option
 - release practice questions every Sunday to be done by end of day Friday
