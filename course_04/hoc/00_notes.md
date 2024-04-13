@@ -10,37 +10,38 @@ Higher Order Functions
 - [ ] Built-in array methods
 
 
+### Bagging Pattern for Arrays and plain JS Objects
+
+- Setup a result bag
+- Loop (iterate) through a collection of values
+  - Process each item of the collection
+  - Update the bag of result
+- optionally return the bag of result
+
 ### Why Higher Order Functions
 
 ```js
 const nums = [2, 5, 6, 7]
 
 const sum = (arr) => {
-  let sum;
+  let sum = arr[0];
   for (const num of arr) {
-    if (!sum) {
-      sum = num;
-      continue;
-    }
     sum = sum + num
   }
   return sum;
 }
 
-const product = (arr) => {
-  let prod;
-  for (const num of arr) {
-    if (prod === undefined) {
-      prod = num;
-      continue;
-    }
-    prod = prod * num
+const product = (arr) => {//[2, 5, 6]
+  let prod = arr[0];// undefined
+  for (const num of arr.slice(1)) {// num = 6
+    prod = prod * num// 10 * 6 = 60
   }
-  return prod;
+  return prod;// 60
 }
 
 const calculateProductOfTwoNums = (a, b) => a * b;
 const calculateSumOfTwoNums = (a, b) => a + b;
+const calculateDoubleSumOfTwoNums = (a, b) => 2*a + 2*b;
 
 // This type of processing is of aggregation type
 // reduction
@@ -56,7 +57,7 @@ const processorHOF = (operationFn, arr) => {
   return result;
 }
 
-const summation = processorHOC(calculateSumOfTwoNums, nums)
+const summation = processorHOF(calculateSumOfTwoNums, nums)
 ```
 
 ### HOF
