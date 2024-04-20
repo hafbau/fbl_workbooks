@@ -2,10 +2,9 @@ Week00 :: Assignment Problems
 ---
 
 - [ ] https://leetcode.com/problems/score-of-a-string/description/
-- [ ] https://leetcode.com/problems/repeat-string/description/
-- [ ] https://leetcode.com/problems/remove-vowels-from-a-string/
+- [ ] https://leetcode.com/problems/valid-parentheses/description/
+- [ ] https://leetcode.com/problems/merge-strings-alternately/description/
 - [ ] https://leetcode.com/problems/two-sum/
-- [ ] https://leetcode.com/problems/partial-function-with-placeholders/description/
 
 ## Steps
 

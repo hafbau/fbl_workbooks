@@ -3,7 +3,7 @@ LeetCode Problems
 
 - [x] https://leetcode.com/problems/create-hello-world-function/description/
 - [ ] https://leetcode.com/problems/remove-vowels-from-a-string/
-- [ ] https://leetcode.com/problems/repeat-string/description/
+- [ ] https://leetcode.com/problems/valid-parentheses/description/
 - [-] https://leetcode.com/problems/score-of-a-string/description/
 
 ## Steps
